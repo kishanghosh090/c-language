@@ -11,12 +11,13 @@ int main()
     {
         c = fgetc(ptr);
         if (c == EOF)
+        // printf("%c", c);
         {
-            break;
+            printf("\n");
+            return 0;
         }
-        printf("%c", c);
+        // printf("%c", c);
     }
-    printf("\n");
 
     return 0;
 }
