@@ -8,7 +8,7 @@ int main()
     ptr2 = fopen("file.txt", "a");
     char ch = fgetc(ptr1);
 
-    // method 1---------------------------------
+    // method 1 ---------------------------------
 
     while (ch != EOF)
     {
@@ -16,7 +16,7 @@ int main()
         ch = fgetc(ptr1);
     }
 
-    // method 2---------------------------------
+    // method 2 ---------------------------------
 
     // while (fscanf(ptr1, "%c", &ch) != EOF)
     // {
