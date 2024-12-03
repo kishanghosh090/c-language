@@ -39,7 +39,7 @@ int main()
 
     // fputc(ch, ptr2);
     // }
-
+ 	printf("this is made by vim ...in terminal based editor");
     fclose(ptr1);
     fclose(ptr2);
 
