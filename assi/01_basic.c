@@ -29,28 +29,63 @@
 
 
 
-#include<stdio.h>
+// #include<stdio.h>
 
+// int main(){
+
+//     int noOfLines;
+//     printf("Enter the number of lines: ");
+//     scanf("%d", &noOfLines);
+
+//     for (int i = 1; i <= noOfLines; i++)
+//     {
+//        for (int j = 1; j <= noOfLines - i ; j++)
+//        {
+//         printf(" ");    
+//        }
+
+//        for (int k = 1; k <= i; k++)
+//        {
+//         printf(" *");
+//        }
+
+//        printf("\n");
+//     }
+
+//     return 0;
+// }
+
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     int num = 5;
+//     int facto = 1;
+//     for (int i = 1; i <= num; i++)
+//     {
+//         facto = facto * i;
+//     }
+//     printf("Factorial of %d is %d \n", num, facto);
+    
+
+//     return 0;
+// }
+
+
+
+
+
+#include<stdio.h>
+#include<string.h>
 int main(){
 
-    int noOfLines;
-    printf("Enter the number of lines: ");
-    scanf("%d", &noOfLines);
-
-    for (int i = 1; i <= noOfLines; i++)
-    {
-       for (int j = 1; j <= noOfLines - i ; j++)
-       {
-        printf(" ");    
-       }
-
-       for (int k = 1; k <= i; k++)
-       {
-        printf(" *");
-       }
-
-       printf("\n");
-    }
+    char name[20] = "debopriya";
+    char dest[20];
+    strcpy(dest, name);
+    printf("%s", dest);
+    
 
     return 0;
 }
