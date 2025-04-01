@@ -17,8 +17,10 @@ int main()
     for (int i = 0; i < numberOfStudent; i++)
     {
         printf("Enter the name of student %d: ", i + 1);
+        // scanf("%s", &s[i].name);
         getchar();
-        gets(s[i].name);
+        // gets(s[i].name);
+        fgets(s[i].name, sizeof(s[i].name), stdin);
         printf("Enter the roll of student %d: ", i + 1);
         scanf("%d", &s[i].roll);
         printf("Enter the marks of student %d: ", i + 1);
