@@ -5,6 +5,7 @@ int trueLength(char *str,char *str2){
     while (str[c] != '\0')
     {
         str2[c] = str[c];
+        c++;
     }
     str2[c] = '\0';
     printf("%s", str2[0]);

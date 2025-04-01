@@ -2,7 +2,7 @@
 
 int main(){
     FILE *fptr;
-    char *ch;
+    char ch[100];
 
     fptr = fopen("try.txt", "r"); // w, r, a, wb, rb, ab
 
